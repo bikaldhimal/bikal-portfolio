@@ -98,13 +98,13 @@ const Footer = () => {
                             Colophon
                         </h3>
                         <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide text-white/60">
-                            Built With: React / TypeScript / GSAP / Framer Motion / Lenis
+                            Built With: React / GSAP / Framer / Lenis
                         </p>
                         <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide text-white/60">
                             Typeface: Inter / Halvetica
                         </p>
                         <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide text-white/60">
-                            Deployed On: GITHUB PAGES
+                            Deployed On: GITHUB
                         </p>
                     </div>
 

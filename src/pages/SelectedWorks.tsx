@@ -14,7 +14,7 @@ const projects = [
             live: "https://www.digitalpathshalanepal.com",
             code: "#",
         },
-        image: "/p1.png",
+        image: `${import.meta.env.BASE_URL}p1.png`,
         cta: "Live Project",
     },
     {
@@ -40,7 +40,7 @@ const projects = [
             live: "https://blue-spark-diamond.vercel.app",
             code: "#",
         },
-        image: "/p3.png",
+        image: `${import.meta.env.BASE_URL}p3.png`,
         cta: "Live Project",
     },
     {

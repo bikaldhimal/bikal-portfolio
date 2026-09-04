@@ -19,7 +19,7 @@ export default defineConfig(({ mode }) => ({
   ].filter(Boolean),
 
   // Required for the custom domain: bdhimal.co.uk
-  base: "/",
+  base: "/bikal-portfolio/",
 
   resolve: {
     alias: {

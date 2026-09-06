@@ -169,7 +169,7 @@ const Index = () => {
     const footerY = useTransform(scrollYProgress, [0, 1], ["-50%", "0%"]);
 
     return (
-        <div className="min-h-screen relative bg-black selection:bg-white selection:text-black">
+        <div className="h-screen relative bg-black selection:bg-white selection:text-black">
             <BrandLogo />
             <CursorFollower />
             <Navigation />
@@ -254,8 +254,14 @@ const Index = () => {
             </div>
 
             {/* Parallax Footer Reveal Stack */}
-            <div ref={footerContainerRef} className="relative z-0 h-screen w-full overflow-hidden bg-black text-white">
-                <motion.div style={{ y: footerY }} className="h-full w-full">
+            <div
+                ref={footerContainerRef}
+                className="relative z-0 w-full overflow-hidden bg-black text-white"
+            >
+                <motion.div
+                    style={{ y: footerY }}
+                    className="w-full"
+                >
                     <Footer />
                 </motion.div>
             </div>
